@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+  background-image: url('back2.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+#video{
+  position:fixed;
+  z-index: -1;
+  width: 100%;
 }
